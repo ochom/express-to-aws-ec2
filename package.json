@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "mocha": "^9.1.2",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0"
+  },
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "mocha"
+  }
+}
